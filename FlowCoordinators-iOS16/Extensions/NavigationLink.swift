@@ -20,7 +20,7 @@ public extension NavigationLink {
             AnyView(Unwrap(item.wrappedValue, content: destination))
         }
 
-        self.init(isActive: isActive, destination: itemDestination, label: label)
+        self.init(destination: itemDestination, label: label)
     }
 }
 
